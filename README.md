@@ -1,6 +1,9 @@
 
-williamyeh.prometheus for Ansible Galaxy
+Fork of williamyeh.prometheus for Ansible Galaxy
 ============
+
+This differs from williamyeh's role only by including PR#35 (systemd support).
+I might give up this repo once the PR is merged to Williams's repo.
 
 [![Circle CI](https://circleci.com/gh/William-Yeh/ansible-prometheus.svg?style=shield)](https://circleci.com/gh/William-Yeh/ansible-prometheus) [![Build Status](https://travis-ci.org/William-Yeh/ansible-prometheus.svg?branch=master)](https://travis-ci.org/William-Yeh/ansible-prometheus)
 
