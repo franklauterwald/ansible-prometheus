@@ -1,16 +1,12 @@
 ---
 # file: handlers/main.yml
 #
-
 - name: reload systemd prometheus
-  systemd:
-    name: prometheus
-    daemon_reload: yes
+  command: systemctl daemon-reload
 
 - name: reload systemd alertmanager
-  systemd:
-    name: alertmanager
-    daemon_reload: yes
+  command: systemctl daemon-reload
+
 
 - name: restart prometheus
   service: name=prometheus state=restarted
